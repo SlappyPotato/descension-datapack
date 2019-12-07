@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "I don't feel so good..."
+        },
+        "description": {
+            "text": "Die from Toxicity"
+        },
+        "icon": {
+            "item": "minecraft:scute"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "die_tox": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "bcav:die"
+}

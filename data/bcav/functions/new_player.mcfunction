@@ -1,0 +1,3 @@
+execute as @a[team=!Players] at @s run give @s minecraft:oak_sapling{display:{Name:'[{"text":"[","color":"dark_gray","bold":true,"italic":false},{"text":"Starter Sapling","color":"dark_green"},{"text":"]","color":"dark_gray","bold":true}]'},HideFlags:63,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]}
+execute as @a[team=!Players] at @s run give @s minecraft:bone_meal{display:{Name:'[{"text":"[","color":"dark_gray","bold":true,"italic":false},{"text":"Starter Bone Meal","color":"gray"},{"text":"]","color":"dark_gray","bold":true,"italic":false}]'},HideFlags:63,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 3
+execute as @a[team=!Players] at @s run team join Players

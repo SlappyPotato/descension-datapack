@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "To the End!",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Summon the End Portal."
+        },
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "make_eport": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "bcav:hardmode"
+}

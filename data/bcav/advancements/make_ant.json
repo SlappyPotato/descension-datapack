@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Pain, pain, go away!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Make an antidote"
+        },
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:16202740,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obt_ant": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Antidote:1b}",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "bcav:bottle_tox_wat"
+}

@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "There's no going back",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Enter Hardmode.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hardmode": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "bcav:root"
+}
