@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Nice and refreshing.",
+            "color": "blue"
+        },
+        "description": {
+            "text": "Purify some water"
+        },
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:2659819}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obt_pur_wat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{HideFlags:127,CustomPotionColor:2659819,Potion:\"minecraft:purified\",Purified:1b,display:{Name:'{\"text\":\"Purified Water Bottle\",\"italic\":\"false\"}',Lore:['{\"text\":\"Light and refreshing\",\"color\":\"gray\",\"italic\":\"false\"}']}}",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "bcav:bottle_tox_wat"
+}

@@ -1,0 +1,32 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Living Hell",
+            "color": "dark_red",
+            "bold": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Reach 1000 deaths",
+            "color": "red",
+            "bold": false,
+            "obfuscated": false
+        },
+        "icon": {
+            "item": "minecraft:wither_rose"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "thous_death": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "bcav:die_six"
+}
