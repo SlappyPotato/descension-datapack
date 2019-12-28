@@ -1,14 +1,13 @@
 execute as @a unless score @s Deaths matches -9999..9999 at @s run scoreboard players set @s Deaths 0
 
 effect give @a[scores={Deaths=0},gamemode=survival] minecraft:haste 15 1 true
-effect give @a[scores={Deaths=0},gamemode=survival] minecraft:strength 15 1 true
+effect give @a[scores={Deaths=0},gamemode=survival] minecraft:strength 15 0 true
 effect give @a[scores={Deaths=0},gamemode=survival] minecraft:speed 15 1 true
 effect give @a[scores={Deaths=0},gamemode=survival] minecraft:jump_boost 15 1 true
 effect give @a[scores={Deaths=0},gamemode=survival] minecraft:resistance 15 1 true
 effect give @a[scores={Deaths=0},gamemode=survival] minecraft:luck 15 0 true
 
 effect give @a[scores={Deaths=1..4},gamemode=survival] minecraft:haste 15 0 true
-effect give @a[scores={Deaths=1..4},gamemode=survival] minecraft:strength 15 0 true
 effect give @a[scores={Deaths=1..4},gamemode=survival] minecraft:speed 15 0 true
 effect give @a[scores={Deaths=1..4},gamemode=survival] minecraft:jump_boost 15 0 true
 effect give @a[scores={Deaths=1..4},gamemode=survival] minecraft:resistance 15 0 true

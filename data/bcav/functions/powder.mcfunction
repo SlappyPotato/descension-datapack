@@ -9,12 +9,12 @@ execute as @e[type=minecraft:item,tag=powder] at @s run data merge entity @s {Pi
 execute as @e[type=minecraft:item,nbt={Age:10s,Item:{id:"minecraft:sugar",Count:1b,tag:{Powder:1b}}}] unless entity @s[tag=powder] at @s run tag @s add powder_activated
 
 execute as @e[type=minecraft:item,tag=powder_activated] at @s run data merge entity @s {PickupDelay:32767s}
-execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:stone replace minecraft:infested_stone
-execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:cobblestone replace minecraft:infested_cobblestone
-execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:stone_bricks replace minecraft:infested_stone_bricks
-execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:mossy_stone_bricks replace minecraft:infested_mossy_stone_bricks
-execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:cracked_stone_bricks replace minecraft:infested_cracked_stone_bricks
-execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:chiseled_stone_bricks replace minecraft:infested_chiseled_stone_bricks
-execute as @e[type=minecraft:item,tag=powder_activated] at @s run particle minecraft:happy_villager ~ ~ ~ 1.5 1.5 1.5 0 50 normal
+execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:stone replace minecraft:infested_stone
+execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:cobblestone replace minecraft:infested_cobblestone
+execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:stone_bricks replace minecraft:infested_stone_bricks
+execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:mossy_stone_bricks replace minecraft:infested_mossy_stone_bricks
+execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:cracked_stone_bricks replace minecraft:infested_cracked_stone_bricks
+execute as @e[type=minecraft:item,tag=powder_activated] at @s run fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:chiseled_stone_bricks replace minecraft:infested_chiseled_stone_bricks
+execute as @e[type=minecraft:item,tag=powder_activated] at @s run particle minecraft:happy_villager ~ ~ ~ 3 3 3 0 100 normal
 execute as @e[type=minecraft:item,tag=powder_activated] at @s run playsound minecraft:entity.experience_orb.pickup master @p ~ ~ ~ 1 0.5
 execute as @e[type=minecraft:item,tag=powder_activated] at @s run kill @s
